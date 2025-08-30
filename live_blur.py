@@ -18,6 +18,10 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascade + PATH_XML)
 
 kernel = generate_kernel()
 
+kernel_tile = np.tile(kernel, (3, 1, 1))
+kernel_sum = kernel.sum()
+kernel = kernel / kernel_sum
+
 while True:
     ret, frame = video_capture.read()
 
