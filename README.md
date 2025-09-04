@@ -1,9 +1,9 @@
 <h1 align="center">
-   <img src="./prints/logo.png" width="200" align="center">
+   <img src="./prints/logo.png" width="500" align="center">
 </h1>
 
 <h4 align="center"> 
-	🚧 Radar Peçonhento 🚀 Concluido...  🚧
+	🚧 Blur 🚀 Concluido...  🚧
 </h4>
 
 ## ✅ Funções
